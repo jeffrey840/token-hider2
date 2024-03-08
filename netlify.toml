@@ -4,8 +4,8 @@
   command = "npm run build"
 
 [template.environment]
-  API_URL = "your Google Maps API endpoint"
-  API_TOKEN = "your Google Maps API key"
+  API_URL = "https://maps.googleapis.com/maps/api/geocode/json"
+  API_TOKEN = "AIzaSyB2Z4Lk0QfR6QngDRAQM6k0mzP7NJAu1vs"
 
 [[redirects]]
 from="/api"
