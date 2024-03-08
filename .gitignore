@@ -5,3 +5,6 @@ dist
 functions
 .cache
 .env
+
+# Local Netlify folder
+.netlify
