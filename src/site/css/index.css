@@ -12,7 +12,7 @@ body {
 }
 
 .container {
-  background: url(/hzdf-maps.png) no-repeat;
+  background: url(/hcc_map2.png) no-repeat;
   background-size: cover;
   overflow: hidden;
   padding: 2rem;
@@ -95,4 +95,21 @@ h4 {
   .form input {
     font-size: 1.2rem;
   }
+}
+/* Container styling for centering */
+#result {
+  display: flex; /* Use flexbox for layout */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  height: 30px; /* Adjust based on desired size, ensures enough space for centering */
+  margin: 20px 0; /* Optional: Add some margin around the container */
+  text-align: center; /* Ensures text is centered horizontally within the container */
+}
+
+/* Result message styling */
+#result-message {
+  font-size: 24px; /* Larger text */
+  color: #333; /* Dark gray text color */
+  font-weight: bold; /* Bold text */
+  width: 100%; /* Ensures the text spans the full width of its container */
 }
