@@ -13,7 +13,7 @@ body {
 }
 
 .container {
-  background: url(/hcc_map2.png) no-repeat;
+  background: url(/hcc_map2.webp) no-repeat;
   background-size: cover;
   overflow: hidden;
   padding: 2rem;
